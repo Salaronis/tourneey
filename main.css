@@ -10,8 +10,11 @@ h4{
     width: 20%;
     height:auto;
   }
-.select{
-    display:block;
+#select{
+    display:none;
+}
+#view{
+    display: none;
 }
 
 .vertical-center {
@@ -21,7 +24,7 @@ h4{
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
   }
-  
+
   ul {
     list-style-type: none;
     margin: 0;

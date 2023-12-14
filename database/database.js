@@ -16,7 +16,7 @@ async function getParticipants(tournament){
 }
 
 async function AddParticipant(tournament , user){
-    const {data,error} = await supabase.from('Entrants')
+    const {data,error} = await supabase.from('Entrants').insert()
     localStorage.setItem(tournament ,);
 }
 */

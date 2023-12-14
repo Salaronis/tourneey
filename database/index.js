@@ -17,6 +17,9 @@ app.post('/createTournament' , (req,res)=>{
 
 });
 
+app.post('/declareWin' , (req,res)=>{
+
+});
 app.get('/Placements', (req,res)=>{
     res.status(200).json(supabase.final());
 });

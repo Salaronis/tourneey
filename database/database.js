@@ -10,7 +10,7 @@ async addEntrant( user){
     const {error} = await supabase.from('Entrants').insert({name: user});
 }
 async addMatchup(user1 , user2){
-    const {error} = await supabase.from('matchups').insert();
+    const {error} = await supabase.from('matchups').insert({Entrant1: user1 , Entrant2: user2});
 }
 async declareWinner(user,matchID){
     const {data,error} = await supabase.from('matchups').update({winner: user}).eq({id: matchID});

@@ -1,14 +1,29 @@
-.hidden {
-    display: none;
-  }
-  
-  label {
-    margin-bottom: 10px;
+h1 {text-align: center;}
+h2 {text-align: center;}
+h4{
+    text-align: center;
+}
+.center {
     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height:auto;
+  }
+.select{
+    display:block;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
   }
   
   ul {
-    position: fixed;
-    top: 0;
-    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
   }

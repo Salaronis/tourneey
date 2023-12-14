@@ -10,11 +10,9 @@ h4{
     width: 20%;
     height:auto;
   }
-#select{
-    display:none;
-}
+
 #view{
-    display: none;
+    visibility: hidden;
 }
 
 .vertical-center {
